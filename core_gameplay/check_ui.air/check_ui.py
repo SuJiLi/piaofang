@@ -13,26 +13,26 @@ os.makedirs(log_dir, exist_ok=True)  # 确保目录存在
 set_logdir(log_dir)  # 强制指定日志位置
 os.path.dirname(os.path.abspath(__file__))
 
-if exists(Template(r"tpl1747623526623.png", threshold=0.5)):
-    sleep(5)
-    if exists(Template(r"tpl1747623606770.png")):
-        touch(Template(r"tpl1747623606770.png", record_pos=(0.219, 0.716), resolution=(1080, 2240)))
-        sleep(5)
-        touch(Template(r"tpl1747623642976.png", record_pos=(-0.004, 0.194), resolution=(1080, 2240)))
+# if exists(Template(r"tpl1747623526623.png", threshold=0.5)):
+#     sleep(5)
+#     if exists(Template(r"tpl1747623606770.png")):
+#         touch(Template(r"tpl1747623606770.png", record_pos=(0.219, 0.716), resolution=(1080, 2240)))
+#         sleep(5)
+#         touch(Template(r"tpl1747623642976.png", record_pos=(-0.004, 0.194), resolution=(1080, 2240)))
     
-        sleep(5)
-        touch((762,1852))
-    elif exists(Template(r"tpl1749692298465.png")):
-        touch(Template(r"tpl1749692298465.png", record_pos=(0.217, 0.719), resolution=(1080, 2240)))
-        sleep(5)
-        touch(Template(r"tpl1747623642976.png", record_pos=(-0.004, 0.194), resolution=(1080, 2240)))
+#         sleep(5)
+#         touch((762,1852))
+#     elif exists(Template(r"tpl1749692298465.png")):
+#         touch(Template(r"tpl1749692298465.png", record_pos=(0.217, 0.719), resolution=(1080, 2240)))
+#         sleep(5)
+#         touch(Template(r"tpl1747623642976.png", record_pos=(-0.004, 0.194), resolution=(1080, 2240)))
     
-        sleep(5)
-        touch((762,1852))
-check_zhujiemian()
+#         sleep(5)
+#         touch((762,1852))
+# check_zhujiemian()
 touch(Template(r"tpl1744944382976.png", record_pos=(0.446, 0.569), resolution=(1080, 2220)))
 sleep(5)
-if exists(Template(r"tpl1745307989339.png")):
+if exists(Template(r"tpl1745307989339.png", threshold=0.5)):
     touch(Template(r"tpl1745308006347.png", record_pos=(-0.17, 0.203), resolution=(1080, 2220)))
 check_image1(r"tpl1744944406386.png")
 
