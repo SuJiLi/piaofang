@@ -45,5 +45,3 @@ simple_report(
     logpath=log_dir,
     output=os.path.join(log_dir, "report.html")
 )
-stop_app("com.tencent.mm")
-keyevent("POWER")

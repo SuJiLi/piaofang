@@ -122,7 +122,7 @@ else:
     touch(Template(r"tpl1750234283530.png", record_pos=(-0.434, -0.655), resolution=(1080, 2400)))
     sleep(3)
     touch(Template(r"tpl1750234283530.png", record_pos=(-0.434, -0.655), resolution=(1080, 2400)))
-    check_zhujiemian()
+check_zhujiemian()
 
 
 touch(Template(r"tpl1750152458184.png", record_pos=(0.328, -0.697), resolution=(1080, 2400)))
@@ -144,7 +144,7 @@ if exists(Template(r"tpl1750235061235.png")):
         sleep(3)
         touch(Template(r"tpl1750236553176.png", record_pos=(-0.432, -0.653), resolution=(1080, 2400)))
 
-        check_zhujiemian()
+check_zhujiemian()
 
 else:
         swipe((926,663),(83,663))
@@ -165,63 +165,11 @@ else:
             touch(Template(r"tpl1750236531600.png", record_pos=(-0.444, -0.854), resolution=(1080, 2400)))
             sleep(3)
             touch(Template(r"tpl1750236553176.png", record_pos=(-0.432, -0.653), resolution=(1080, 2400)))          
-            check_zhujiemian()
-
-
-    
-    
-    
-    
-    
-    
-    
-       
-
-    
-    
-    
-
-
-        
-        
-        
-        
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+check_zhujiemian()
 
 simple_report(
     filepath=__file__,
     logpath=log_dir,
     output=os.path.join(log_dir, "report.html")
 )
+stop_app("com.tencent.mm")
