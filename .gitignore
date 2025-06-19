@@ -3,6 +3,8 @@
 */_log/
 *.log
 *.html
+.log
+_log
 
 ## 编译/缓存类
 __pycache__/
