@@ -48,4 +48,7 @@ sleep(10)
 swipe((501,334),(567,1539))
 sleep(5)
 touch(Template(r"tpl1747623798740.png", threshold=0.5, record_pos=(-0.342, -0.298), resolution=(1080, 2240)))
+pic=wait(Template(r"tpl1750323384578.png", record_pos=(0.001, 0.528), resolution=(1080, 2400)))
+if pic:
+    touch((531,1805))
 sleep(60)
