@@ -5,9 +5,9 @@ from airtest.core.api import *
 
 dev = connect_device("Android:///Q2NVB21806000861")
 
-touch(Template(r"tpl1749109060222.png", record_pos=(0.276, -0.902), resolution=(1080, 2240)))
+touch(Template(r"tpl1749109060222.png", threshold=0.3, record_pos=(0.276, -0.902), resolution=(1080, 2240)))
 sleep(5)
-touch(Template(r"tpl1749109092661.png", record_pos=(0.181, 0.639), resolution=(1080, 2240)))
+touch(Template(r"tpl1749109092661.png", threshold=0.3, record_pos=(0.181, 0.639), resolution=(1080, 2240)))
 pic=wait(Template(r"tpl1750323713818.png", record_pos=(-0.006, 0.531), resolution=(1080, 2400)))
 if pic:
     touch((531,1805))
