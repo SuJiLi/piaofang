@@ -51,6 +51,6 @@ touch(Template(r"tpl1747623798740.png", threshold=0.5, record_pos=(-0.342, -0.29
 pic=wait(Template(r"tpl1750323384578.png", record_pos=(0.001, 0.528), resolution=(1080, 2400)))
 if pic:
     touch((531,1805))
-pic1=wake(Template(r"tpl1750324997618.png", record_pos=(0.011, 1.021), resolution=(1080, 2400)))
+pic1=wait(Template(r"tpl1750324997618.png", record_pos=(0.011, 1.021), resolution=(1080, 2400)))
 if pic1:
     print("进到游戏主界面")
