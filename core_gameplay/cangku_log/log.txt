@@ -1,3 +1,0 @@
-{"tag": "function", "depth": 1, "time": 1750387661.5313227, "data": {"name": "connect_device", "call_args": {"uri": "Android:///Q2NVB21806000861"}, "start_time": 1750387661.2710192, "ret": "<Android 'Q2NVB21806000861'>", "end_time": 1750387661.5313227}}
-{"tag": "function", "depth": 2, "time": 1750387664.8480105, "data": {"name": "try_log_screen", "call_args": {"screen": null, "quality": null, "max_size": null}, "start_time": 1750387661.5313227, "ret": {"screen": "1750387664809.jpg", "resolution": [1080, 2400]}, "end_time": 1750387664.8480105}}
-{"tag": "function", "depth": 1, "time": 1750387665.7835195, "data": {"name": "touch", "call_args": {"v": [839, 142], "kwargs": {}, "times": 1}, "start_time": 1750387661.5313227, "ret": [839, 142], "end_time": 1750387665.7835195}}

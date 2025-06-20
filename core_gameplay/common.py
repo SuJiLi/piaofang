@@ -40,7 +40,8 @@ def check_zhujiemian():
         sleep(3)
         touch(Template(r"tpl1750325430622.png", threshold=0.5, record_pos=(-0.421, -0.727), resolution=(1080, 2400)))
         sleep(3)
-    if exists(Template(r"tpl1750126196654.png", threshold=0.5)):
+    if exists(Template(r"tpl1750126196654.png", threshold=0.7)):
+        print("存在艺人界面")
         touch(Template(r"tpl1750126227738.png", threshold=0.5, record_pos=(-0.366, -0.366), resolution=(1080, 2400)))
 def shengji():
     sleep(3)
