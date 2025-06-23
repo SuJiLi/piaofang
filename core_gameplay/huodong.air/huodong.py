@@ -36,7 +36,7 @@ if chaoou:
         touch(Template(r"tpl1750146482508.png", record_pos=(-0.456, -0.867), resolution=(1080, 2400)))
 
 check_zhujiemian()
-touch(Template(r"tpl1750150481224.png", record_pos=(0.328, -0.592), resolution=(1080, 2400)))
+touch(Template(r"tpl1750643906154.png", threshold=0.6, record_pos=(0.327, -0.789), resolution=(1080, 2400)))
 sleep(5)
 if exists(Template(r"tpl1750150567564.png")):
     touch(Template(r"tpl1750150641232.png", record_pos=(-0.371, 0.706), resolution=(1080, 2400)))
