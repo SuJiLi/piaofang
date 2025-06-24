@@ -20,11 +20,11 @@ if chaoou:
     if exists(Template(r"tpl1750144508786.png")):
         check_image2(r"tpl1750145054142.png")
         sleep(3)
-        touch(Template(r"tpl1750145108346.png", record_pos=(0.017, -0.253), resolution=(1080, 2400)))
+        touch(Template(r"tpl1750145108346.png", threshold=0.6, record_pos=(0.017, -0.253), resolution=(1080, 2400)))
         sleep(3)
         check_image2(r"tpl1750145139525.png")
         sleep(3)
-        touch(Template(r"tpl1750145183740.png", record_pos=(0.329, -0.259), resolution=(1080, 2400)))
+        touch(Template(r"tpl1750145183740.png", threshold=0.6, record_pos=(0.329, -0.259), resolution=(1080, 2400)))
         sleep(3)
         check_image2(r"tpl1750145379356.png")
         sleep(3)
@@ -33,7 +33,7 @@ if chaoou:
         swipe((545,1965),(545,786))
         sleep(5)
         check_image2(r"tpl1750146083478.png")
-        touch(Template(r"tpl1750146482508.png", record_pos=(-0.456, -0.867), resolution=(1080, 2400)))
+        touch(Template(r"tpl1750146482508.png", threshold=0.6, record_pos=(-0.456, -0.867), resolution=(1080, 2400)))
 
 check_zhujiemian()
 touch(Template(r"tpl1750643906154.png", threshold=0.6, record_pos=(0.327, -0.789), resolution=(1080, 2400)))
@@ -56,14 +56,14 @@ check_zhujiemian()
 sleep(3)
 touch(Template(r"tpl1750152458184.png", record_pos=(0.328, -0.697), resolution=(1080, 2400)))
 sleep(3)
-if exists(Template(r"tpl1750153163628.png", rgb=True)):
+if exists(Template(r"tpl1750153163628.png", threshold=0.9, rgb=True)):
     touch(Template(r"tpl1750153196217.png", rgb=True, record_pos=(-0.145, -0.497), resolution=(1080, 2400)))
     check_image2(r"tpl1750154067296.png")
     sleep(5)
 else:
     swipe((926,663),(83,663))
     sleep(5)
-    if exists(Template(r"tpl1750153196217.png", rgb=True)):
+    if exists(Template(r"tpl1750153196217.png", threshold=0.9, rgb=True)):
         touch(Template(r"tpl1750153196217.png", rgb=True, record_pos=(-0.145, -0.497), resolution=(1080, 2400)))
         sleep(5)
         check_image2(r"tpl1750231129006.png")
@@ -81,7 +81,7 @@ check_zhujiemian()
 
 touch(Template(r"tpl1750152458184.png", record_pos=(0.328, -0.697), resolution=(1080, 2400)))
 sleep(3)
-if exists(Template(r"tpl1750233150889.png")):
+if exists(Template(r"tpl1750233150889.png", threshold=0.9)):
     
     touch(Template(r"tpl1750233150889.png", rgb=True, record_pos=(0.256, -0.488), resolution=(1080, 2400)))
     sleep(3)
@@ -105,24 +105,26 @@ if exists(Template(r"tpl1750233150889.png")):
 else:
     swipe((926,663),(83,663))
     sleep(5)
-    touch(Template(r"tpl1750233150889.png", rgb=True, record_pos=(0.256, -0.488), resolution=(1080, 2400)))
-    sleep(3)
-    touch(Template(r"tpl1750233467185.png", record_pos=(0.0, 0.654), resolution=(1080, 2400)))
-    sleep(5)
-    touch(Template(r"tpl1750233509734.png", record_pos=(0.428, 1.008), resolution=(1080, 2400)))
-    check_image2(r"tpl1750233528784.png")
-    touch(Template(r"tpl1750233582002.png", record_pos=(-0.45, -0.86), resolution=(1080, 2400)))
-    sleep(3)
-    touch(Template(r"tpl1750233604631.png", record_pos=(-0.094, 1.006), resolution=(1080, 2400)))
-    sleep(5)
-    check_image2(r"tpl1750233802053.png")
-    sleep(3)
-    touch(Template(r"tpl1750233985761.png", record_pos=(-0.431, -0.856), resolution=(1080, 2400)))
-    sleep(3)
-    touch(Template(r"tpl1750234283530.png", record_pos=(-0.434, -0.655), resolution=(1080, 2400)))
-    sleep(3)
-    touch(Template(r"tpl1750234283530.png", record_pos=(-0.434, -0.655), resolution=(1080, 2400)))
-    check_zhujiemian()
+    if exists(Template(r"tpl1750233150889.png", threshold=0.9)):
+        touch(Template(r"tpl1750233150889.png", rgb=True, record_pos=(0.256, -0.488), resolution=(1080, 2400)))
+        sleep(3)
+    
+        touch(Template(r"tpl1750233467185.png", record_pos=(0.0, 0.654), resolution=(1080, 2400)))
+        sleep(5)
+        touch(Template(r"tpl1750233509734.png", record_pos=(0.428, 1.008), resolution=(1080, 2400)))
+        check_image2(r"tpl1750233528784.png")
+        touch(Template(r"tpl1750233582002.png", record_pos=(-0.45, -0.86), resolution=(1080, 2400)))
+        sleep(3)
+        touch(Template(r"tpl1750233604631.png", record_pos=(-0.094, 1.006), resolution=(1080, 2400)))
+        sleep(5)
+        check_image2(r"tpl1750233802053.png")
+        sleep(3)
+        touch(Template(r"tpl1750233985761.png", record_pos=(-0.431, -0.856), resolution=(1080, 2400)))
+        sleep(3)
+        touch(Template(r"tpl1750234283530.png", record_pos=(-0.434, -0.655), resolution=(1080, 2400)))
+        sleep(3)
+        touch(Template(r"tpl1750234283530.png", record_pos=(-0.434, -0.655), resolution=(1080, 2400)))
+        check_zhujiemian()
 
 
 touch(Template(r"tpl1750152458184.png", record_pos=(0.328, -0.697), resolution=(1080, 2400)))
