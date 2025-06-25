@@ -98,7 +98,7 @@ touch(Template(r"tpl1744947364456.png", record_pos=(-0.002, -0.714), resolution=
 check_image2(r"tpl1744947586047.png")
 check_image2(r"tpl1744947620040.png")
 if exists(Template(r"tpl1744947683824.png")):
-    touch(Template(r"tpl1744947705778.png", record_pos=(0.257, -0.704), resolution=(1080, 2220)))
+    touch((803,218))
     check_image1(r"tpl1744947723689.png")
     touch(Template(r"tpl1744947745686.png", record_pos=(-0.435, -0.838), resolution=(1080, 2220)))
     check_zhujiemian()
