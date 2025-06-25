@@ -15,7 +15,7 @@ os.makedirs(log_dir, exist_ok=True)  # 确保目录存在
 set_logdir(log_dir)  # 强制指定日志位置
 
 sleep(10)
-touch(Template(r"tpl1744700009905.png", threshold=0.5, record_pos=(0.144, 0.953), resolution=(1080, 2220)))
+touch((694,2318))
 try:
     if wait(Template(r"tpl1744715356027.png")):
         touch(Template(r"tpl1744700381999.png", record_pos=(0.302, 0.675), resolution=(1080, 2220)))

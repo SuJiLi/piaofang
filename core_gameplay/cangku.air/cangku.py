@@ -11,7 +11,7 @@ set_logdir(log_dir)  # 强制指定日志位置
 dev = connect_device("Android:///Q2NVB21806000861")
 
 check_image1(r"tpl1744883377895.png")
-touch(Template(r"tpl1744883794540.png", record_pos=(0.419, 0.967), resolution=(1080, 2220)))
+touch((991,2318))
 check_image1(r"tpl1744883830711.png")
 sleep(5)
 if exists(Template(r"tpl1749173610440.png")):

@@ -12,13 +12,15 @@ log_dir = r"D:\PiaoFang_Test\core_gameplay\guanli_log"
 os.makedirs(log_dir, exist_ok=True)  # 确保目录存在
 set_logdir(log_dir)  # 强制指定日志位置
 check_image1(r"tpl1744879931926.png")
-touch(Template(r"tpl1744880003491.png", record_pos=(-0.279, 0.947), resolution=(1080, 2220)))
+touch((237,2318))
 sleep(5)
 if not exists(Template(r"tpl1744880034806.png",threshold=0.85)):
-    touch(Template(r"tpl1750390900623.png", record_pos=(-0.28, 1.028), resolution=(1080, 2400)))
+    touch((237,2318))
 sleep(5)
 touch(Template(r"tpl1750390887437.png", record_pos=(-0.277, 0.21), resolution=(1080, 2400)))
+check_zhujiemian()
 check_image1(r"tpl1744880096403.png")
+
 sleep(5)
 touch(Template(r"tpl1744880153332.png", record_pos=(-0.448, -0.842), resolution=(1080, 2220)))
 check_zhujiemian()

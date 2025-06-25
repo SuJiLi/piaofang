@@ -14,10 +14,10 @@ os.makedirs(log_dir, exist_ok=True)  # 确保目录存在
 set_logdir(log_dir)  # 强制指定日志位置
 
 check_image1(r"tpl1744869478330.png")
-touch(Template(r"tpl1744869568363.png", record_pos=(-0.419, 0.963), resolution=(1080, 2220)))
+touch((86,2318))
 sleep(5)
 if not exists(Template(r"tpl1744869970239.png")):
-    touch(Template(r"tpl1744870016123.png", record_pos=(-0.421, 0.967), resolution=(1080, 2220)))
+    touch((86,2318))
 sleep(5)
 touch(Template(r"tpl1744870041029.png", record_pos=(-0.421, -0.131), resolution=(1080, 2220)))
 check_image1(r"tpl1744870061053.png")

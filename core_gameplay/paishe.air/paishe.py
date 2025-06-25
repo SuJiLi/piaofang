@@ -14,7 +14,7 @@ log_dir = r"D:\PiaoFang_Test\core_gameplay\paishe_log"
 os.makedirs(log_dir, exist_ok=True)  # 确保目录存在
 set_logdir(log_dir)  # 强制指定日志位置
 sleep(2)
-touch(Template(r"tpl1744600009078.png", threshold=0.6, record_pos=(0.018, 0.952), resolution=(1080, 2220)))
+touch((565,2318))
 sleep(5)
 try:
     if exists(Template(r"tpl1744630226810.png", threshold=0.7)):
