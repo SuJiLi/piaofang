@@ -17,7 +17,7 @@ sleep(2)
 touch((565,2318))
 sleep(5)
 try:
-    if exists(Template(r"tpl1744630226810.png", threshold=0.7)):
+    if not exists(Template(r"tpl1744600034000.png")):
         print("电影满了")
         touch((61,1892))
         sleep(5)
