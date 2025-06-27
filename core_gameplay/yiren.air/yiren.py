@@ -17,7 +17,7 @@ set_logdir(log_dir)  # 强制指定日志位置
 sleep(10)
 touch((397,2318))
 sleep(5)
-touch(Template(r"tpl1750392066293.png", record_pos=(-0.241, -0.321), resolution=(1080, 2400)))
+touch(Template(r"tpl1750392066293.png", threshold=0.6, record_pos=(-0.241, -0.321), resolution=(1080, 2400)))
 sleep(5)
 touch(Template(r"tpl1744716428373.png", record_pos=(0.344, -0.333), resolution=(1080, 2220)))
 sleep(5)

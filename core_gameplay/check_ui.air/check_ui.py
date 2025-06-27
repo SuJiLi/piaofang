@@ -57,7 +57,7 @@ touch(Template(r"tpl1744945173513.png", record_pos=(-0.44, -0.842), resolution=(
 check_zhujiemian()
 if exists(Template(r"tpl1744945213348.png")):
     touch(Template(r"tpl1744945213348.png", record_pos=(0.33, -0.151), resolution=(1080, 2220)))
-    if exists(Template(r"tpl1750133454661.png", threshold=0.4, record_pos=(-0.025, 0.913), resolution=(1080, 2400))):
+    if exists(Template(r"tpl1750133454661.png", threshold=0.6, record_pos=(-0.025, 0.913), resolution=(1080, 2400))):
         check_image2(r"tpl1744945261635.png")
         touch(Template(r"tpl1744945292173.png", record_pos=(-0.455, -0.835), resolution=(1080, 2220)))
         

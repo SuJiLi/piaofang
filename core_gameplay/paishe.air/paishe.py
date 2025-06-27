@@ -89,7 +89,7 @@ try:
 except TargetNotFoundError:
         print("拍摄异常")
 sleep(2)
-touch(Template(r"tpl1744609641760.png", record_pos=(0.0, 0.713), resolution=(1080, 2220)))
+touch(Template(r"tpl1744609641760.png", threshold=0.6, record_pos=(0.0, 0.713), resolution=(1080, 2220)))
 check_image1(r"tpl1744609667139.png")
 touch(Template(r"tpl1744609911457.png", record_pos=(0.004, 0.641), resolution=(1080, 2220)))
 sleep(20)
