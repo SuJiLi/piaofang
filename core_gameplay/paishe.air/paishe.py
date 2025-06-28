@@ -23,7 +23,6 @@ try:
         sleep(5)
         touch(Template(r"tpl1744623426320.png", record_pos=(0.27, 0.544), resolution=(1080, 2220)))
         sleep(5)
-        touch(Template(r"tpl1744600009078.png", threshold=0.6, record_pos=(0.018, 0.952), resolution=(1080, 2220)))
 except TargetNotFoundError:
         print("还有电影空位")
         
