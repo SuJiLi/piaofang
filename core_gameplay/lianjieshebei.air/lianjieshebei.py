@@ -48,9 +48,11 @@ sleep(10)
 swipe((501,334),(567,1539))
 sleep(5)
 touch(Template(r"tpl1747623798740.png", threshold=0.5, record_pos=(-0.342, -0.298), resolution=(1080, 2240)))
-pic=wait(Template(r"tpl1750323384578.png", record_pos=(0.001, 0.528), resolution=(1080, 2400)))
-if pic:
-    touch((531,1805))
-pic1=wait(Template(r"tpl1750324997618.png", record_pos=(0.011, 1.021), resolution=(1080, 2400)))
-if pic1:
-    print("进到游戏主界面")
+sleep(10)
+if exists(Template(r"tpl1752484836081.png")):
+    
+    touch(Template(r"tpl1752484853554.png", record_pos=(-0.219, 0.965), resolution=(1080, 2400)))   
+sleep(10)
+if wait(Template(r"tpl1752638606960.png", record_pos=(-0.394, -0.894), resolution=(1080, 2400))):
+    touch((520,1615))
+sleep(30)
